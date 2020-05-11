@@ -12,6 +12,9 @@ export default class Liker {
       likerImage.className = 'liker-image';
       likerImage.style.animationName = `heart${randomImage}`;
       image.appendChild(likerImage);
+      // <div class="image">
+      //   <img src="heart.png" class='liker-image' name=`heart${randomImage}`>
+      // </div>
       likerImage.addEventListener('animationend', () => {
         image.removeChild(likerImage);
       });
