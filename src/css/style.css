@@ -190,6 +190,7 @@ body {
   animation-duration: 700ms;
   animation-fill-mode: forwards;
   animation-timing-function: ease-in-out;
+  background-image: url('../img/heart.png');
 }
 
 @keyframes heart1 {

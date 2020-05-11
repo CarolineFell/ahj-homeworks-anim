@@ -8,7 +8,7 @@ export default class Liker {
       event.preventDefault();
       const randomImage = Math.floor(Math.random() * 4) + 1;
       const likerImage = document.createElement('img');
-      likerImage.src = 'img/heart.png';
+      likerImage.src = 'heart.png';
       likerImage.className = 'liker-image';
       likerImage.style.animationName = `heart${randomImage}`;
       image.appendChild(likerImage);
