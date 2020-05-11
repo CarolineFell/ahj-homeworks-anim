@@ -169,6 +169,7 @@ body {
 }
 
 .button-liker {
+  font-weight: 500;
   position: absolute;
   width: 100px;
   bottom: 30px;
